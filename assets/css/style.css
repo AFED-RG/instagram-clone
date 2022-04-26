@@ -1,0 +1,901 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body 
+{
+    background-color: #fafafa;
+}
+.landing_page 
+{
+    padding-top: 30px;
+}
+.landing_page .hero_img 
+{
+    position: relative;
+}
+.landing_page .hero_img img 
+{
+    width: 100%;
+}
+.landing_page .hero_img .hero_img_fade img 
+{
+    width: 100%;
+    max-width: 255px;
+    margin: 95px 0 0 149px;
+}
+.landing_page .hero_img .hero_img_fade .hero_img_fade_item 
+{
+    position: absolute;
+    top: 0;
+}
+.hero_img_fade_item1 
+{
+    animation: fade1 10s infinite;
+}
+.hero_img_fade_item2 
+{
+    animation: fade2 10s infinite;
+}
+.hero_img_fade_item3 
+{
+    animation: fade3 10s infinite;
+}
+.hero_img_fade_item4
+{
+    animation: fade4 10s infinite;
+}
+.hero_img_fade_item5 
+{
+    animation: fade5 10s infinite;
+}
+@keyframes fade1 
+{
+    0% 
+    {
+        opacity: 1;
+    }
+    25% 
+    {
+        opacity: 0;
+    }
+    50% 
+    {
+        opacity: 0;
+    }
+    75% 
+    {
+        opacity: 0;
+    }
+    100% 
+    {
+        opacity: 0;
+    }
+}
+@keyframes fade2 
+{
+    0% 
+    {
+        opacity: 0;
+    }
+    25% 
+    {
+        opacity: 1;
+    }
+    50% 
+    {
+        opacity: 0;
+    }
+    75% 
+    {
+        opacity: 0;
+    }
+    100% 
+    {
+        opacity: 0;
+    }
+}
+@keyframes fade3 
+{
+    0% 
+    {
+        opacity: 0;
+    }
+    25% 
+    {
+        opacity: 0;
+    }
+    50% 
+    {
+        opacity: 1;
+    }
+    75% 
+    {
+        opacity: 0;
+    }
+    100% 
+    {
+        opacity: 0;
+    }
+}
+@keyframes fade4
+{
+    0% 
+    {
+        opacity: 0;
+    }
+    25% 
+    {
+        opacity: 0;
+    }
+    50% 
+    {
+        opacity: 0;
+    }
+    75% 
+    {
+        opacity: 1;
+    }
+    100% 
+    {
+        opacity: 0;
+    }
+}
+@keyframes fade5 
+{
+    0% 
+    {
+        opacity: 0;
+    }
+    25% 
+    {
+        opacity: 0;
+    }
+    50% 
+    {
+        opacity: 0;
+    }
+    75% 
+    {
+        opacity: 0;
+    }
+    100% 
+    {
+        opacity: 1;
+    }
+}
+
+
+
+.landing_page .login_section .login_form
+{
+    background-color: #fff;
+    margin-top: 30px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    padding: 30px 40px 15px 40px;
+}
+.landing_page .login_section .login_form img 
+{
+    width: 60%;
+    margin-bottom: 30px;
+}
+.landing_page .login_section .login_form input 
+{
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 12px;
+    padding: 9px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+}
+.landing_page .login_section .login_form input:focus
+{
+    outline: none;
+    border: 1px solid #92908e;
+}
+.landing_page .login_section .login_form #login_btn
+{
+    background-color: #b2dffc;
+    width: 100%;
+    border: none;
+    font-size: 12px;
+    padding: 7px;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+.landing_page .login_section .login_form #login_btn.login_btn_active 
+{
+    background-color: #0095f6;
+}
+.landing_page .login_section .login_form .or 
+{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    color: #92908e;
+}
+.landing_page .login_section .login_form .or::before 
+{
+    content: "";
+    width: 100%;
+    max-width: 100px;
+    height: 1px;
+    display: inline-block;
+    background-color: #dbdbdb;
+    margin-bottom: 5px;
+}
+.landing_page .login_section .login_form .or::after
+{
+    content: "";
+    width: 100%;
+    max-width: 100px;
+    height: 1px;
+    display: inline-block;
+    background-color: #dbdbdb;
+    margin-bottom: 5px;
+}
+.landing_page .login_section .login_form .log_in_with_fb
+{
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.landing_page .login_section .login_form .log_in_with_fb a 
+{
+    text-decoration: none;
+    color: #385185;
+}
+.landing_page .login_section .login_form .forgot_password
+{
+    padding-top: 9px;
+}
+.landing_page .login_section .login_form .forgot_password a
+{
+    font-size: 12px;
+    color: #385185;
+    text-decoration: none;
+}
+
+.landing_page .login_section .sign_up
+{
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.landing_page .login_section .sign_up #sign_up_color 
+{
+    font-weight: 600;
+}
+.landing_page .login_section .sign_up #sign_up_color a 
+{
+    text-decoration: none;
+    color: #0095f6;
+}
+
+.landing_page .login_section .get_the_app 
+{
+    text-align: center;
+    padding-top: 16px;
+    font-size: 14px;
+}
+
+.landing_page .login_section .get_the_app .dl_app_method img
+{
+    width: 100%;
+    max-width: 140px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+
+/* PASSWORD RESET */
+
+header
+{
+    background-color: #fff;
+    padding: 8px;
+    border-bottom: 1px solid #dbdbdb;
+}
+header .insta_logo img 
+{
+    width: 100%;
+    max-width: 110px;
+}
+.trouble_logging_in_form
+{
+    text-align: center;
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+}
+.trouble_logging_in_form .trouble_logging_in_form_wrapper
+{
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    width: 100%;
+    max-width: 390px;
+}
+.trouble_logging_in_form .trouble_logging_in_form_wrapper form
+{
+    padding: 25px 40px 0 40px;
+}
+.trouble_logging_in_form .trouble_logging_in_form_wrapper form .fa-lock
+{
+    font-size: 55px;
+    color: #303030;
+    border: 2px solid #303030;
+    padding: 20px;
+    border-radius: 100%;
+}
+.trouble_logging_in_form .trouble_logging_in_form_wrapper form h1 
+{
+    font-size: 16px;
+    margin-top: 13px;
+}
+.trouble_logging_in_form .trouble_logging_in_form_wrapper form p 
+{
+    font-size: 14px;
+    color: #92908e;
+}
+.trouble_logging_in_form .trouble_logging_in_form_wrapper form input 
+{
+    width: 100%;
+    font-size: 14px;
+    padding: 9px;
+    border-radius: 6px;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+}
+.trouble_logging_in_form .trouble_logging_in_form_wrapper form input:focus 
+{
+    outline: none;
+    border: 1px solid #92908e;
+}
+.trouble_logging_in_form .trouble_logging_in_form_wrapper form #send_login_link_btn
+{
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    background-color: #b2dffc;
+    border: none;
+    margin-top: 15px;
+    color: #fff;
+}
+.trouble_logging_in_form .trouble_logging_in_form_wrapper form #send_login_link_btn.send_login_link_btn_active
+{
+    background-color: #0095f6;
+}
+.trouble_logging_in_form .trouble_logging_in_form_wrapper form .or 
+{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    color: #92908e;
+}
+.trouble_logging_in_form .trouble_logging_in_form_wrapper form .or::before 
+{
+    content: "";
+    width: 100%;
+    max-width: 130px;
+    height: 1px;
+    display: inline-block;
+    background-color: #dbdbdb;
+    margin-bottom: 5px;
+}
+.trouble_logging_in_form .trouble_logging_in_form_wrapper form .or::after
+{
+    content: "";
+    width: 100%;
+    max-width: 130px;
+    height: 1px;
+    display: inline-block;
+    background-color: #dbdbdb;
+    margin-bottom: 5px;
+}
+.trouble_logging_in_form .trouble_logging_in_form_wrapper form .create_new_acc a
+{
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+.trouble_logging_in_form .back_to_login button
+{
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 80px;
+}
+
+/* SIGN UP */
+
+.sign_up
+{
+    display: grid;
+    justify-content: center;
+    margin-top: 35px;
+}
+.sign_up_wrapper 
+{
+    background-color: #fff;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    border: 1px solid #dbdbdb;
+}
+.sign_up_wrapper form img 
+{
+    width: 100%;
+    max-width: 190px;
+}
+.sign_up_wrapper form h2 
+{
+    font-size: 17px;
+    font-weight: 600;
+    color: #92908e;
+    margin-top: 7px;
+}
+.sign_up_wrapper form .log_in_with_fb
+{
+    width: 100%;
+    border: none;
+    background-color: #0095f6;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+}
+.sign_up_wrapper form .log_in_with_fb a 
+{
+    text-decoration: none;
+    color: #fff;
+}
+.sign_up_wrapper form .or 
+{
+    margin: 15px 0 15px 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    color: #92908e;
+}
+.sign_up_wrapper form .or::before 
+{
+    content: "";
+    width: 100%;
+    max-width: 100px;
+    height: 1px;
+    display: inline-block;
+    background-color: #dbdbdb;
+    margin-bottom: 5px;
+}
+.sign_up_wrapper form .or::after
+{
+    content: "";
+    width: 100%;
+    max-width: 100px;
+    height: 1px;
+    display: inline-block;
+    background-color: #dbdbdb;
+    margin-bottom: 5px;
+}
+.sign_up_wrapper form input 
+{
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid #dbdbdb;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #fafafa;
+}
+.sign_up_wrapper form #sign_up_btn 
+{
+    width: 100%;
+    font-size: 14px;
+    background-color: #b2dffc;
+    border: none;
+    padding: 5px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.sign_up_wrapper form #sign_up_btn.sign_up_btn_active
+{
+    background-color: #0095f6;
+}
+.sign_up_wrapper form p 
+{
+    font-size: 12px;
+    margin-top: 20px;
+    color: #92908e;
+}
+.sign_up_wrapper form p a 
+{
+    text-decoration: none;
+    color: #92908e;
+}
+.sign_up .have_an_account 
+{
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.sign_up.have_an_account 
+{
+    font-weight: 600;
+}
+.sign_up .have_an_account a 
+{
+    text-decoration: none;
+    color: #0095f6;
+}
+.sign_up .get_the_app 
+{
+    text-align: center;
+    padding-top: 16px;
+    font-size: 14px;
+}
+
+.sign_up .get_the_app .dl_app_method img
+{
+    width: 100%;
+    max-width: 140px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+
+/* LOG IN */
+
+.login_section
+{
+    display: grid;
+    justify-content: center;
+}
+.login_section .login_form
+{
+    background-color: #fff;
+    margin-top: 35px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    padding: 30px 40px 15px 40px;
+    width: 100%;
+    max-width: 350px;
+}
+.login_section .login_form img 
+{
+    width: 70%;
+    margin-bottom: 30px;
+}
+.login_section .login_form input 
+{
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 12px;
+    padding: 9px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+}
+.login_section .login_form input:focus
+{
+    outline: none;
+    border: 1px solid #92908e;
+}
+.login_section .login_form #login_btn
+{
+    background-color: #b2dffc;
+    width: 100%;
+    border: none;
+    font-size: 12px;
+    padding: 7px;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+.login_section .login_form #login_btn.login_btn_active 
+{
+    background-color: #0095f6;
+}
+.login_section .login_form .or 
+{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    color: #92908e;
+}
+.login_section .login_form .or::before 
+{
+    content: "";
+    width: 100%;
+    max-width: 100px;
+    height: 1px;
+    display: inline-block;
+    background-color: #dbdbdb;
+    margin-bottom: 5px;
+}
+.login_section .login_form .or::after
+{
+    content: "";
+    width: 100%;
+    max-width: 100px;
+    height: 1px;
+    display: inline-block;
+    background-color: #dbdbdb;
+    margin-bottom: 5px;
+}
+.login_section .login_form .log_in_with_fb
+{
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.login_section .login_form .log_in_with_fb a 
+{
+    text-decoration: none;
+    color: #385185;
+}
+.login_section .login_form .forgot_password
+{
+    padding-top: 9px;
+}
+.login_section .login_form .forgot_password a
+{
+    font-size: 12px;
+    color: #385185;
+    text-decoration: none;
+}
+
+.login_section .sign_up
+{
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.login_section .sign_up #sign_up_color 
+{
+    font-weight: 600;
+}
+.login_section .sign_up #sign_up_color a 
+{
+    text-decoration: none;
+    color: #0095f6;
+}
+
+.login_section .get_the_app 
+{
+    text-align: center;
+    padding-top: 16px;
+    font-size: 14px;
+}
+.login_section .get_the_app .dl_app_method img
+{
+    width: 100%;
+    max-width: 140px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+/* FOOTER */
+
+footer 
+{
+    padding: 50px 0 70px 0;
+}
+footer .footer_action_links
+{
+    text-align: center;
+}
+footer .footer_action_links ul 
+{
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+}
+footer .footer_action_links ul li 
+{
+    display: inline-block;
+    padding: 0 12px 0 0;
+}
+footer .footer_action_links ul li a 
+{
+    text-decoration: none;
+    color: #8e8e8e;
+}
+footer .footer_action_links .languages 
+{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    color: #8e8e8e;
+}
+footer .footer_action_links .languages select 
+{
+    margin-top: -20px;
+    border: none;
+    color: #8e8e8e;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+footer .footer_action_links .languages .copy
+{
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .landing_page .hero_img .hero_img_fade img 
+    {
+        width: 100%;
+        max-width: 212px;
+        margin: 80px 0 0 125px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .landing_page .hero_img 
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .landing_page .login_section .login_form img 
+    {
+        width: 90%;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+    .landing_page .login_section .login_form
+    {
+        background-color: transparent;
+        border: none;
+    }
+    
+    .landing_page .login_section .sign_up
+    {
+        background-color: transparent;
+        border: none;
+    }
+    .landing_page .login_section .login_form .or 
+    {
+        margin-top: 10px;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 600;
+        color: #92908e;
+    }
+    .landing_page .login_section .login_form .or::before 
+    {
+        content: "";
+        width: 100%;
+        max-width: 80px;
+        height: 1px;
+        display: inline-block;
+        background-color: #dbdbdb;
+        margin-bottom: 5px;
+    }
+    .landing_page .login_section .login_form .or::after
+    {
+        content: "";
+        width: 100%;
+        max-width: 80px;
+        height: 1px;
+        display: inline-block;
+        background-color: #dbdbdb;
+        margin-bottom: 5px;
+    }
+
+
+
+    .trouble_logging_in_form .trouble_logging_in_form_wrapper form .or 
+    {
+        margin-top: 10px;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 600;
+        color: #92908e;
+    }
+    .trouble_logging_in_form .trouble_logging_in_form_wrapper form .or::before 
+    {
+        content: "";
+        width: 100%;
+        max-width: 80px;
+        height: 1px;
+        display: inline-block;
+        background-color: #dbdbdb;
+        margin-bottom: 5px;
+    }
+    .trouble_logging_in_form .trouble_logging_in_form_wrapper form .or::after
+    {
+        content: "";
+        width: 100%;
+        max-width: 80px;
+        height: 1px;
+        display: inline-block;
+        background-color: #dbdbdb;
+        margin-bottom: 5px;
+    }
+    /* SIGN UP SECTION */
+    .sign_up_wrapper 
+    {
+        background-color: transparent;
+        border: none;
+    }
+    .sign_up .have_an_account 
+    {
+        background-color: transparent;
+        border: none;
+    }
+    /* LOG IN SECTION */
+    .login_section .login_form
+    {
+        background-color: transparent;
+        border: none;
+    }
+    .login_section .sign_up
+    {
+        background-color: transparent;
+        border: none;
+    }
+    
+}
+
+
+.loader 
+{
+    position: fixed;
+    text-align: center;
+    z-index: 9999;
+    background-color: #fafafa;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.loader img
+{
+    width: 100%;
+    max-width: 40px;
+    margin-top: 250px;
+}
+
+.loader.hidden 
+{
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeOut 
+{
+    100% 
+    {
+        opacity: 0;
+        visibility: hidden;
+    }
+}

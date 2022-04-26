@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/instagram_icon.png">
+    <title>Instagram</title>
+</head>
+<body>
+
+    <div class="loader">
+        <img src="assets/img/instagram_icon.png" alt="instagram_icon">
+    </div>
+
+    <div class="landing_page">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-xl-1 col-lg-1"></div>
+                <div class="col-xl-5 col-lg-5">
+                    <div class="hero_img">
+                        <img src="assets/img/hero_img.png" alt="hero_img">
+                            <div class="hero_img_fade">
+                                <img src="assets/img/hero_fade_img1.png" alt="hero_fade_img1" class="hero_img_fade_item hero_img_fade_item1">
+                                <img src="assets/img/hero_fade_img2.png" alt="hero_fade_img2" class="hero_img_fade_item hero_img_fade_item2">
+                                <img src="assets/img/hero_fade_img3.png" alt="hero_fade_img3" class="hero_img_fade_item hero_img_fade_item3">
+                                <img src="assets/img/hero_fade_img4.jpg" alt="hero_fade_img4" class="hero_img_fade_item hero_img_fade_item4">
+                                <img src="assets/img/hero_fade_img5.jpg" alt="hero_fade_img5" class="hero_img_fade_item hero_img_fade_item5">
+                            </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="login_section">
+                        <form class="login_form">
+                            <img src="assets/img/instagram_logo_text.svg" alt="instagram_logo_text">
+                            <input type="text" id="phone_no_username_email" placeholder="Phone number, username, or email" onkeyup="isEmpty()">
+                            <input type="password" id="password" placeholder="Password" onkeyup="isEmpty()">
+                            <button id="login_btn" disabled>Log In</button>
+                            <div class="or"> or </div>
+                            <div class="log_in_with_fb">
+                                <span><a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%2522g7vx517ox7xrfhkirfcvd78shw4mtw16sen981bs1pc41cm03xl%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26locale%3Den_US%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Dda725415-5a29-4337-9581-ff3a37369a27%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%2522g7vx517ox7xrfhkirfcvd78shw4mtw16sen981bs1pc41cm03xl%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%2522%257D%23_%3D_&display=page&locale=en_US&pl_dbl=0"><i class="fab fa-facebook-square"></i> Log in with Facebook</a></span>
+                            </div>
+                            <div class="forgot_password">
+                                <a href="reset_password.html">Forgot password?</a>
+                            </div>
+                        </form>
+                        <div class="sign_up">
+                            <label>Don't have an account? <span id="sign_up_color"><a href="sign_up.html">Sign Up</a></span></label>
+                        </div>
+                        <div class="get_the_app">
+                            <p>Get the app.</p>
+                                <div class="dl_app_method">
+                                    <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo"><img src="assets/img/dl_on_the_app_store.png" alt="dl_on_the_app_store"></a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb&utm_campaign=loginPage&ig_mid=982CB6A1-12B6-4D67-B6B6-6877EB4CC838&utm_content=lo&utm_medium=badge"><img src="assets/img/get_in_on_google_play.png" alt="get_in_on_google_play"></a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer_action_links">
+                <ul>
+                    <li><a href="https://about.instagram.com/">About</a></li>
+                    <li><a href="https://about.instagram.com/blog">Blog</a></li>
+                    <li><a href="https://about.instagram.com/about-us/careers">Jobs</a></li>
+                    <li><a href="https://help.instagram.com/">Help</a></li>
+                    <li><a href="https://developers.facebook.com/docs/instagram">API</a></li>
+                    <li><a href="https://help.instagram.com/519522125107875">Privacy</a></li>
+                    <li><a href="https://help.instagram.com/581066165581870">Terms</a></li>
+                    <li><a href="https://www.instagram.com/directory/profiles/">Top Accounts</a></li>
+                    <li><a href="https://www.instagram.com/directory/hashtags/">Hashtags</a></li>
+                    <li><a href="https://www.instagram.com/explore/locations/">Locations</a></li>
+                </ul>
+                <div class="languages">
+                    <select name="languages" id="languages">
+                        <option value="english">English</option>
+                        <option value="filipino">Filipino</option>
+                        <option value="english_uk">English (UK)</option>
+                        <option value="japanese">Japanese</option>
+                        <option value="portugues">Portugues</option>
+                        <option value="espanyol">Espanyol</option>
+                        <option value="indonesian">Indonesian</option>
+                    </select>
+                    <div class="copy">
+                        <p>&copy; 2021 Instagram from Facebook</p>
+                    </div>
+                </div>
+                <p>Kage Bunshin no Jutsu by RG</p>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script>
+
+    function isEmpty() 
+    {
+        var phone_no_username_email = document.getElementById("phone_no_username_email").value;
+        var password = document.getElementById("password").value;
+        if(phone_no_username_email != "" && password != "")
+        {   
+            document.getElementById("login_btn").removeAttribute("disabled");
+            document.getElementById("login_btn").classList.add("login_btn_active");
+        }
+    }
+    
+</script>
+<script>
+    window.addEventListener("load", function(){
+        const loader = document.querySelector(".loader");
+        loader.className += " hidden";
+    });
+
+</script>
+</body>
+</html>
